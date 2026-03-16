@@ -1,0 +1,24 @@
+runConfig:
+  maxInstances: 2
+  minInstances: 0
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: AIzaSyAnyB4pH3kQ9Kra1LVMgaCj3Fpc-aDM4Ww
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: minwonzero.firebaseapp.com
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: minwonzero
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: minwonzero.firebasestorage.app
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "829430358101"
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:829430358101:web:c7c372c14c72083e6074dc"
+  - variable: NEXT_PUBLIC_KAKAO_MAP_KEY
+    value: 559f360a2d9f298cd2934f0907f58a0e
+  - variable: ANTHROPIC_API_KEY
+    secret: anthropic-api-key
